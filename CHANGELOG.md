@@ -1,5 +1,18 @@
 # OHHTTPStubs — CHANGELOG
 
+## [5.2.3](https://github.com/AliSoftware/OHHTTPStubs/releases/tag/5.2.3)
+
+* Reverted [#216](https://github.com/AliSoftware/OHHTTPStubs/pull/216) until better solution, as it was never active and can't make it compile for all subspec configurations.  
+* Improved documentation about `dynamicType:` vs `type(of:)`.  
+  [Antondomashnev](https://github.com/Antondomashnev)
+  [#221](https://github.com/AliSoftware/OHHTTPStubs/pull/221)
+* Fixed a race condition that occasionally prevented redirect callbacks.  
+  [@morrowa](https://github.com/morrowa)
+  [#224](https://github.com/AliSoftware/OHHTTPStubs/pull/224)
+* Fixed response timing for zero-length stub data.  
+  [@morrowa](https://github.com/morrowa)
+  [#224](https://github.com/AliSoftware/OHHTTPStubs/pull/224)
+
 ## [5.2.2](https://github.com/AliSoftware/OHHTTPStubs/releases/tag/5.2.2)
 
 * Added `@discardableResult` to func stub for swift 3.  
