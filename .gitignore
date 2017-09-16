@@ -17,3 +17,9 @@ profile
 # Carthage
 Carthage/
 OHHTTPStubs.framework.zip
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+*.framework.zip
